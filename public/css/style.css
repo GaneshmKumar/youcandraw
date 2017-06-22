@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script:700');
+
+body {
+	background: #343436;
+	margin: 0px;
+    padding: 0px;
+}
+
+
+.footer {
+	transform: translateY(-5px);
+	background: #343436;
+}
+
+#canvas:active {
+    cursor: default;
+}
+
+.title {
+	font-family: 'Oleo Script', cursive;
+	position: relative;
+	top: 20px;
+	color: #ffffff;
+	font-size: 40px;
+	left: 100px;
+}
+
+.color {
+	position: relative;
+	top: 20px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 50px !important;
+	height: 50px !important;
+	border: solid 2px transparent;
+}
+
+.color:hover {
+	cursor: pointer;
+}
+
+#red {
+	background: #F44336;
+	border-color: #fafafa;
+}
+
+#green {
+	background: #8BC34A;
+}
+
+#blue {
+	background: #3F51B5;
+}
